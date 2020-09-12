@@ -99,7 +99,7 @@ void Play()
 
 	// This block gets all the filenames that can be played
 	std::vector<std::string> file_names;
-	std::string path_string("."); // Made changes here
+	std::string path_string(".");
 	for (auto& p : fs::recursive_directory_iterator(path_string))
 	{
 		fs::path path = p.path();
